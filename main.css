@@ -1,0 +1,45 @@
+body {
+	background-color: #A9F5F2;
+}
+.intro {
+	text-align: center;
+	color: white;
+}
+#title{
+	text-align:center;
+}
+#idk{
+	font-size:15px;
+	text-align: center;
+	font-family:"Times New Roman", Times, serif;
+}
+#aboutme{
+	text-align: center;
+}
+body{
+	background-color: lightyellow;
+}
+
+.navbar {
+margin: 0;
+padding: 0;
+    width: 500px;
+    background-color: #f1f1f1;
+  }
+
+  .navitem a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .navitem a.active {
+    background-color: pink ;
+    color: white;
+  }
+
+  .navitem a:hover:not(.active) {
+    background-color:lightblue;
+    color: white;
+}
