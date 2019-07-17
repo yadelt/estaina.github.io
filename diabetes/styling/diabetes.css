@@ -1,5 +1,15 @@
+p {
+  text-align: center;
+  font-size: 25px;
+  font: b;
+  color: #249E04;
+}
+h3 {
 #intro{
   text-align: center;
+  font-size: 25px;
+  font: b;
+  color: #249E04;
 }
 li{
   flex:1;}
