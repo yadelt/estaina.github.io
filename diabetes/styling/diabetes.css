@@ -79,3 +79,16 @@ float:left;}
   clear:both;
   display: table;
 }
+.blue{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.red::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+#dog{
+  text-align: center;
+}
