@@ -1,3 +1,4 @@
+
 #intro{
   text-align: center;
 }
@@ -96,3 +97,109 @@ float:left;}
 
 body {text-shadow: 2px 2px 2px white;
 background-color: #feffcc;}
+=======
+#intro{
+  text-align: center;
+}
+li{
+  flex:1;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-weight: bold;
+}
+#stuff{
+  text-align: center;
+}
+.navitem a {
+  display: block;
+  color: #000;
+  padding: 12px 18px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #249E04    ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #33DD07 ;
+}
+#group{float:left;}
+#lizbeth{border-radius: 20%;
+  float:left;}
+#estaina{border-radius: 20%;
+float:left;}
+#christina{border-radius: 20%;
+float:left;}
+#daniela{border-radius: 20%;
+float:left;}
+#yadel{border-radius: 20%;
+float:left;}
+#k{
+  text-align: center;
+}
+.aligncenter{
+  text-align: center;
+}
+#idek{
+  text-align: center;
+}
+.us{
+  text-align: center;
+}
+#oof{
+  text-align: center;
+}
+.column{
+  float:right;
+  width: 50%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  clear:both;
+  display: table;
+}
+.blue{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.red::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+#dog{
+  text-align: center;
+}
+body {text-shadow: 2px 3px 5px white;
+background-color: #feffcc;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
